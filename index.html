@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Wink Donuts</title>
+    <meta name="description"
+        content="اي وينك دونات متجر مختص في تقديم أفضل دونات يمكن لك تذوّقها، دونات صحي ولذيذ لنكهة رائعة ومميزة، نعمل لنكون من أفضل محلات الدونات في السعودية">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- Css Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Js Files -->
+    <!-- Jquery -->
+    <script defer src="js/jquery.min.js"></script>
+    <!-- Swiper -->
+    <script defer src="js/swiper.min.js"></script>
+    <!-- Fetch Data -->
+    <script defer src="js/fetch.js"></script>
+    <!-- Main js -->
+    <script defer src="js/main.js"></script>
+
+
+</head>
+
+<body>
+
+    <main>
+
+        <!-- Start Header -->
+        <header class="fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 d-none d-md-block">
+                        <nav class="d-flex">
+                            <a href="#home" class="nav-link active">الرئيسية</a>
+                            <a href="#about" class="nav-link">من نحن</a>
+                            <a href="#menu" class="nav-link">القائمة</a>
+                            <a href="https://api.whatsapp.com/send/?phone=966563488666" class="nav-link"
+                                target="_blank">تواصل معنا</a>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-md-4 text-center text-md-end">
+                        <img src="./images/logo.svg" alt="Logo" class="logo">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Hero Section -->
+        <section class="home" id="home">
+            <img src="./images/circle.svg" alt="circle" class="circle circle-1">
+            <img src="./images/circle.svg" alt="circle" class="circle circle-2">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-lg-8 content-col ">
+                        <h1 class="mb-4 text-center text-lg-start">دونات تحلّي يومك</h1>
+                        <p class="text-center text-lg-start">نقدم لكم أفضل أنواع الدونات بأحجام ونكهات متنوّعة ولذيذة،
+                            مع حشوات غربية <br class="d-none d-lg-block">
+                            بمكوّنات
+                            صحيّة خالية
+                            من المواد الحافظة.
+                        </p>
+                        <div
+                            class="home-buttons mt-5 d-flex align-items-center justify-content-center justify-content-lg-start">
+                            <a class="btn-epic" href="#menu">
+                                <div><span>تعرف على منتجاتنا</span><span>تعرف على منتجاتنا</span></div>
+                            </a>
+                            <a class="btn-epic alt ms-4" href="https://api.whatsapp.com/send/?phone=966563488666">
+                                <div><span>تواصل معنا</span><span>تواصل معنا</span></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col p-0 d-none d-lg-block">
+                        <img src="./images/hand.png" alt="Hand with donuts" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Section -->
+
+        <!-- Start About -->
+        <section class="about" id="about">
+            <img src="./images/circle.svg" alt="circle" class="circle circle-1">
+            <img src="./images/waves.png" alt="waves" class="wave ">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-lg-6 p-0 ">
+                        <img src="./images/about.png" alt="donuts" class="about-img">
+                    </div>
+                    <div class="col-12 col-lg-6 content-col ">
+                        <h2 class="mb-4 text-center text-lg-start">من نحن؟</h2>
+                        <p class="text-center text-lg-start">
+                            آي وينك دونات، متجر سعودي مختص بتقديم وصناعة الدونات، من أجود المكوّنات الأوروبية بأيدي
+                            سعودية، نصنع لكم مختلف أنواع
+                            وأحجام الدونات ذات المذاق والطعم المميز.
+                        </p>
+
+                        <p class="text-center text-lg-start">
+                            بالإضافة إلى كوكيز سابليه المقرمش بنكهات عديدة، نحن نستخدم فقط المكونات الصحية مثل الزيوت
+                            الخالية من الدهون غير المشبعة
+                            والمواد غير الحافظة، لذلك يمكنك الاستمتاع بالحلويات في آي وينك دونات بكل أمان.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Start Menu  -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2 class="text-center mb-5">القائمة</h2>
+                <div class="tabs d-flex align-items-center justify-content-center gap-4">
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="swipers">
+                    <!-- Swiper -->
+                    <div id="swiper-donuts"
+                        class="swiper-container donuts swiper-container-initialized swiper-container-horizontal show"
+                        data-tab="donuts">
+                        <div class="swiper-wrapper">
+                        </div>
+
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-disabled="false">
+                            <svg width="50" fill="#aec65a" xmlns="http://www.w3.org/2000/svg"
+                                class="ionicon d-none d-md-block" viewBox="0 0 512 512">
+                                <title>Caret Back</title>
+                                <path
+                                    d="M321.94 98L158.82 237.78a24 24 0 000 36.44L321.94 414c15.57 13.34 39.62 2.28 39.62-18.22v-279.6c0-20.5-24.05-31.56-39.62-18.18z" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-disabled="false">
+                            <svg width="50" fill="#aec65a" xmlns="http://www.w3.org/2000/svg"
+                                class="ionicon d-none d-md-block" viewBox="0 0 512 512">
+                                <title>Caret Forward</title>
+                                <path
+                                    d="M190.06 414l163.12-139.78a24 24 0 000-36.44L190.06 98c-15.57-13.34-39.62-2.28-39.62 18.22v279.6c0 20.5 24.05 31.56 39.62 18.18z" />
+                            </svg>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <!-- Swiper -->
+                    <div id="swiper-drinks"
+                        class="swiper-container drinks swiper-container-initialized swiper-container-horizontal"
+                        data-tab="drinks">
+                        <div class="swiper-wrapper">
+
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-disabled="false">
+                            <svg width="50" fill="#aec65a" xmlns="http://www.w3.org/2000/svg"
+                                class="ionicon d-none d-md-block" viewBox="0 0 512 512">
+                                <title>Caret Back</title>
+                                <path
+                                    d="M321.94 98L158.82 237.78a24 24 0 000 36.44L321.94 414c15.57 13.34 39.62 2.28 39.62-18.22v-279.6c0-20.5-24.05-31.56-39.62-18.18z" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-disabled="false">
+                            <svg width="50" fill="#aec65a" xmlns="http://www.w3.org/2000/svg"
+                                class="ionicon d-none d-md-block" viewBox="0 0 512 512">
+                                <title>Caret Forward</title>
+                                <path
+                                    d="M190.06 414l163.12-139.78a24 24 0 000-36.44L190.06 98c-15.57-13.34-39.62-2.28-39.62 18.22v279.6c0 20.5 24.05 31.56 39.62 18.18z" />
+                            </svg>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <!-- Swiper -->
+                    <div id="swiper-cookies"
+                        class="swiper-container cookies swiper-container-initialized swiper-container-horizontal"
+                        data-tab="cookies">
+                        <div class="swiper-wrapper">
+
+
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-disabled="false">
+                            <svg width="50" fill="#aec65a" xmlns="http://www.w3.org/2000/svg"
+                                class="ionicon d-none d-md-block" viewBox="0 0 512 512">
+                                <title>Caret Back</title>
+                                <path
+                                    d="M321.94 98L158.82 237.78a24 24 0 000 36.44L321.94 414c15.57 13.34 39.62 2.28 39.62-18.22v-279.6c0-20.5-24.05-31.56-39.62-18.18z" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-disabled="false">
+                            <svg width="50" fill="#aec65a" xmlns="http://www.w3.org/2000/svg"
+                                class="ionicon d-none d-md-block" viewBox="0 0 512 512">
+                                <title>Caret Forward</title>
+                                <path
+                                    d="M190.06 414l163.12-139.78a24 24 0 000-36.44L190.06 98c-15.57-13.34-39.62-2.28-39.62 18.22v279.6c0 20.5 24.05 31.56 39.62 18.18z" />
+                            </svg>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Menu -->
+
+        <!-- Start Map -->
+        <section class="map">
+            <div class="container">
+                <div class="map-container">
+                    <h2 class="text-center mb-5">موقعنا على الخريطة</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.49268097568!2d46.605714115003316!3d24.81281955327613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee55e601d9d69%3A0xbf5ee9582188dfef!2z2LrZhdiy2Kkg2KfZhNi52YrZhiDZhNmE2K_ZiNmG2KfYqg!5e0!3m2!1sen!2s!4v1676646884532!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Map -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="container py-4 footer-top">
+                <div class=" row flex-column-reverse flex-md-row gap-4 gap-md-0 align-items-center">
+                    <div class="col-12 col-lg">
+                        <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"><a
+                                href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                                    <title>Logo Facebook</title>
+                                    <path
+                                        d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"
+                                        fill-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                                    <title>Logo Instagram</title>
+                                    <path
+                                        d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+                                    <path
+                                        d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+
+                                    <title>Logo Twitter</title>
+                                    <path
+                                        d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z" />
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg copyright">
+                        <p class="mb-0  text-center">
+                            جميع الحقوق محفوظة | تم التطوير بواسطة
+                            <a href="http://maizny.com" class="footer-link">فريق
+                                ميزني</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg text-center text-md-end">
+                        <img src="./images/logo.svg" alt="Logo" class="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
