@@ -2,10 +2,10 @@ $(function() {
   const headerHeight = $("header").innerHeight();
   const navLinks = $(".nav-link");
 
-  //   // WOW JS
-  //   if ($(".wow").length > 0) {
-  //     new WOW().init();
-  //   }
+  // WOW JS
+  if ($(".wow").length > 0) {
+    new WOW().init();
+  }
 
   // Change Header Background
   $(window).on("scroll", () => {

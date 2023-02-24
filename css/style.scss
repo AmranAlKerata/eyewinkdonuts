@@ -76,6 +76,16 @@ img {
   border-radius: 50px;
 }
 
+$delay: 100;
+
+@for $el from 1 through 20 {
+  .delay-#{$el} {
+    animation-delay: #{$delay}ms;
+  }
+
+  $delay: 100 + $delay;
+}
+
 // AMK Loader
 .amk-loader {
   position: absolute;
@@ -238,7 +248,7 @@ header {
 
   .hero-img {
     position: absolute;
-    left: 0;
+    left: -60px;
     max-width: 700px;
     top: 80px;
     transform: translateX(-60px);
@@ -508,6 +518,11 @@ header {
       }
     }
   }
+}
+
+// Google
+.romw-review-content {
+  font-family: "Somar", sans-serif !important;
 }
 
 // Map

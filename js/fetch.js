@@ -1,4 +1,4 @@
-let url = "./data.json";
+let url = "https://x8ki-letl-twmt.n7.xano.io/api:DOHskyIb/products";
 
 const productsContainer = $(".swipers");
 const swipercontainer = $(".swiper-container");
@@ -47,7 +47,7 @@ const productMakrUp = (data) => {
                       <br>
                       ca
                   </div>
-                  <img src="${image}" alt="${title}">
+                  <img loading="lazy" src="${image}" alt="${title}">
                   <h3 class="mt-4">${title}</h3>
                   ${type === "can"
                     ? `<h6>سعر الصندوق ${price} ريال</h6>`
